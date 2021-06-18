@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Autotests.Cloud</title>
+</head>
+
+<body id="app">
+@@include('_header.html')
+<main>
+
+
+<section class="one-frame">
+	<div class="wrapper">
+		<div  id="test" class="col-main" style="background-image: url(img/pics.png);">
+			<h2>Автоматизация тестирования как сервис</h2>
+			<p>Мы собрали крутую команду инженеров, организовали все процессы, провели тесты и сейчас формируем кейсы, поэтому для первых клиентов действует акция по промокоду</p>
+			<button class="img-right" id="btnOne" onclick="modalShow()">Стать клиентом<img src="img/icon_2.svg"></button>
+		</div>
+		<div class="col-3">
+			<div>
+				<h4>Акция по промокоду</h4>
+				<p>Мы собрали крутую команду инженеров, организовали все процессы, поэтому для первых клиентов действует акция по промокоду</p>
+			</div>
+			<div>
+				<h4>Силовая команда</h4>
+				<p>Команда школы инженеров qa.guru создали уникальный автоматизированный сервис, который решает задачи тестировки</p>
+			</div>
+			<div>
+				<h4>Тестируйте сами</h4>
+				<p>Мы разработали уникальный сервис, благодаря которому вы можете сами ставить задачи на автотесты и многое другое</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="margin-p">
+	<div class="wrapper">
+		
+
+
+		<div class="col-50">
+			<div>
+				<h2>Тестируйте сами</h2>
+				<div>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+<p>Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+
+<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+				</div>
+				<form action="https://start.autotests.cloud/" target="_blank">
+				<button>start.autotests.cloud</button></form>
+			</div>
+			<div class="shadow-1">
+				<img src="img/image_1.png">
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+<script>
+	$('#test').on('click', function(){
+	$('body').addClass('current');
+});
+</script>
+
+
+
+
+
+	</div>
+</section>
+</main>
+@@include('_footer.html')
+@@include('_modal.html')
+<script src="js/script.min.js"></script>
+</body>
+
+</html>
