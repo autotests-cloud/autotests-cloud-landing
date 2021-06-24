@@ -168,4 +168,17 @@
 	.col-main {
 		min-height: unset;
 	}
+	.branding h3 span {
+		display: none;
+	}
+	main .wrapper {
+		>div, form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+	section:last-child {
+		margin-bottom: 14px;
+	}
 }

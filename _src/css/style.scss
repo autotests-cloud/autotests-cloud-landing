@@ -39,6 +39,9 @@ section {
 	h3 {
 		font-size: 22px;
 		letter-spacing: -0.55px;
+		span {
+			font-weight: 400;
+		}
 	}
 }
 
@@ -213,6 +216,22 @@ section {
 	margin-bottom: 10vh;
 }
 
+.wrapper ul {
+	li {
+		list-style: disc;
+		margin-bottom: 0.6em;
+		margin-left: 1em;
+		span {
+			font-weight: 600;
+		}
+	}
+}
+
+
+
+
+
 @import "modal.scss";
 @import "breakpoints.scss";
 @import "fixed-header.scss";
+@import "slider.scss";
